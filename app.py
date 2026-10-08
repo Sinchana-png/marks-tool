@@ -1,3 +1,4 @@
+
 """marks tool -print a short report for a list of marks."""
 from config import load_env
 from stats import average,highest,lowest
@@ -11,3 +12,4 @@ def main():
           print("lowest:",lowest(MARKS))
 if __name__== "__main__":
      main()
+
