@@ -10,8 +10,8 @@ def main():
           print("average:",average(MARKS))
           print("highest:",highest(MARKS))
           print("lowest:",lowest(MARKS))
-    pass_mark = int(settings["PASS_MARK"])
-    print("passed :",pass_count (MARKS, pass_mark),"of",len (MARKS))
+          pass_mark = int(settings["PASS_MARK"])
+          print("Passed :", pass_count(MARKS, pass_mark), "of", len(MARKS))
 if __name__== "__main__":
      main()
 
